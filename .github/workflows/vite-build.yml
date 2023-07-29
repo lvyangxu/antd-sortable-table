@@ -30,8 +30,8 @@ jobs:
     - name: Archive
       uses: actions/upload-artifact@v3
       with:
-          name: my-artifact
-          path: docs/
+        name: my-artifact
+        path: docs/
 
     - name: Deploy
       uses: actions/deploy-pages
