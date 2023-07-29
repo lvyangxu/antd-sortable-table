@@ -6,14 +6,15 @@
   "scripts": {
     "test": "vite",
     "build": "tsc -p ./tsconfig-build.json",
-    "fix": "npx eslint --fix ./**/**/*.tsx --fix ./test/**/*.ts --fix vite.config.ts"
+    "fix": "npx eslint --fix ./**/**/*.tsx --fix ./test/**/*.ts --fix vite.config.ts",
+    "build-test": "vite build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lvyangxu/antd-sortable-table.git"
   },
   "keywords": [
-    "sortable-table"
+    "sortable","table"
   ],
   "author": "lvyangxu",
   "license": "ISC",

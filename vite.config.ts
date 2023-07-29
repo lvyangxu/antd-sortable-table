@@ -6,9 +6,8 @@ export default defineConfig({
     plugins: [react()],
     build: {
         rollupOptions: {
-            input: {
-                test: '/test/main.tsx',
-            },
+            input: ['./test/main.tsx',"./test/index.html"],
         },
+        outDir: '../doc',
     },
 })
