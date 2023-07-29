@@ -1,0 +1,57 @@
+{
+  "name": "antd-sortable-table",
+  "version": "1.0.0",
+  "description": "sortable table editor by antd and dnd-kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "vite",
+    "build": "tsc -p ./tsconfig-build.json",
+    "fix": "npx eslint --fix ./**/**/*.tsx --fix ./test/**/*.ts --fix vite.config.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvyangxu/antd-sortable-table.git"
+  },
+  "keywords": [
+    "sortable-table"
+  ],
+  "author": "lvyangxu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lvyangxu/antd-sortable-table/issues"
+  },
+  "homepage": "https://github.com/lvyangxu/antd-sortable-table#readme",
+  "devDependencies": {
+    "@dnd-kit/core": "^6.0.8",
+    "@dnd-kit/modifiers": "^6.0.1",
+    "@dnd-kit/sortable": "^7.0.2",
+    "@dnd-kit/utilities": "^3.2.1",
+    "@types/lodash": "^4.14.195",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.44.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier": "^3.0.0",
+    "react": "^18.2.0",
+    "ts-jest": "^29.1.1",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.3"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "antd": "^5.7.0",
+    "lodash": "^4.17.21"
+  }
+}

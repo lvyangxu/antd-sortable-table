@@ -1,14 +1,13 @@
 # antd-sortable-table
-antd table with dnd
-an sortable table editor based on antd and dnd-kit
+基于antd和dnd-kit封装的可拖动排序的表格编辑器
 
-English | [简体中文](./README-zh_CN.md)
+[English](./README.md) | 简体中文
 
-## When To Use
+## 何时使用
 
-- You ne
+- 提供了一个可以编辑的表格，实现了常见的排序、新增行、复制行、删除行等场景
 
-## 📦 install  
+## 📦 安装  
 
 ```shell
 
@@ -16,7 +15,15 @@ npm i antd-sortable-table -S
 
 ```
 
-## 🔨 useage
+## API
+
+| 参数 | 描述 | ts类型 | 必须 | 默认值 | 示例 |
+| -- | -- | -- | -- | -- | -- |
+| id | 元素id，方便表单组件使用 | string | 否 | - | "my-editor" |
+| locale | 国际化 | 
+
+
+## 🔨 代码演示
 
 ```ts
 
@@ -85,8 +92,3 @@ export function Demo() {
 
 ```
 
-## api
-
-| propName | description | type | required | exmaple |
-| -- | -- | -- | -- | -- |
-| 

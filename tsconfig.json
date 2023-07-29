@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "sourceMap": true,
+      "declaration": true,
+      "skipLibCheck": true,
+      "strictNullChecks": false,
+      "lib": [
+        "ESNext","dom"
+      ],
+      "jsx": "react",
+      "outDir": "./dist"
+    },
+    "include": [
+      "src/**/*.tsx",
+      "test/**/*.tsx",
+      "test/**/*.d.ts",
+      "*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }

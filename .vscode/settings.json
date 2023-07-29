@@ -1,0 +1,7 @@
+{
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "eslint.format.enable": true,
+    // "editor.codeActionsOnSave": {
+    //     "source.fixAll": true
+    // }
+}

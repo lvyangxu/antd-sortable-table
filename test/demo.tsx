@@ -1,25 +1,3 @@
-# antd-sortable-table
-antd table with dnd
-an sortable table editor based on antd and dnd-kit
-
-English | [简体中文](./README-zh_CN.md)
-
-## When To Use
-
-- You ne
-
-## 📦 install  
-
-```shell
-
-npm i antd-sortable-table -S
-
-```
-
-## 🔨 useage
-
-```ts
-
 import * as React from 'react'
 import { Input, InputNumber } from 'antd'
 import { cloneDeep } from 'lodash'
@@ -80,13 +58,3 @@ export function Demo() {
         />
     )
 }
-
-
-
-```
-
-## api
-
-| propName | description | type | required | exmaple |
-| -- | -- | -- | -- | -- |
-| 
