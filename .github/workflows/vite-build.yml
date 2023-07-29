@@ -34,5 +34,5 @@ jobs:
         path: docs/
 
     - name: Deploy
-      uses: actions/deploy-pages
+      uses: actions/deploy-pages@v2
         
