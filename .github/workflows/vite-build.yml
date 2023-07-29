@@ -52,9 +52,6 @@ jobs:
         name: github-pages
         path: docs/
 
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v2
-
   # Deployment job
   deploy:
     environment:
