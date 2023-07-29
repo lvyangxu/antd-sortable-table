@@ -9,5 +9,6 @@ export const locale: Locale = {
         deleteButtonText: 'delete',
         addButtonText: 'add',
         clearButtonText: 'clear',
+        requireDefaultRowValueFuncText: 'prop defaultRowValueFunc not set',
     },
 }

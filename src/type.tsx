@@ -19,7 +19,7 @@ export interface TableEditorProps<T extends RowKeyType> {
     /** table editor state,control table should show edit dom */
     isPreview: boolean
     /** default value for a new row */
-    defaultRowValueFunc: (v: TableEditorProps<T>['value']) => T
+    defaultRowValueFunc?: (v: TableEditorProps<T>['value']) => T
     /** a function return antd table columns */
     columnsFunc: (v: Required<Pick<TableEditorProps<T & RowKeyType>, 'value' | 'onChange'>>) => ColumnsType<T & RowKeyType>
     /** table edit validator,only trigger when some row add or delete */
@@ -43,5 +43,6 @@ export interface Locale {
         deleteButtonText: string
         addButtonText: string
         clearButtonText: string
+        requireDefaultRowValueFuncText: string
     }
 }

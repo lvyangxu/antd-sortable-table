@@ -132,6 +132,11 @@ export function InnerEditor<T extends RowKeyType>(props: TableEditorProps<T>) {
                                 }
                             }
 
+                            if (defaultRowValueFunc === undefined) {
+                                showMessageWithCloseIcon({ text: locale.data.requireDefaultRowValueFuncText, method: 'error' })
+                                return
+                            }
+
                             const rowValue = defaultRowValueFunc(newValue)
                             newValue.push(rowValue)
                             onChange(newValue)

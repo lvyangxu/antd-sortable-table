@@ -9,5 +9,6 @@ export const locale: Locale = {
         deleteButtonText: '删除',
         addButtonText: '新建',
         clearButtonText: '清空',
+        requireDefaultRowValueFuncText: '参数defaultRowValueFunc未设置',
     },
 }
