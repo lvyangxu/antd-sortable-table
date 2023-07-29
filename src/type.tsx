@@ -1,10 +1,13 @@
 import { ColumnsType, TableProps } from 'antd/es/table'
 
-export type RowKeyType = { _rowIndex?: number; _sortKey?: number } & object
+export type RowKeyType = {
+    /** row index of value */
+    _rowIndex?: number
+    /** sortKey for dnd, don't change it */
+    _sortKey?: number
+} & object
 
-export type TableEditorProps<T extends RowKeyType> = Omit<InnerEditorProps<T>, 'local'>
-
-export interface InnerEditorProps<T extends RowKeyType> {
+export interface TableEditorProps<T extends RowKeyType> {
     /** element id, useful for antd form item */
     id?: string
     /** locale config, auto sync with antd locale, only support zh-cn and en */
@@ -26,7 +29,7 @@ export interface InnerEditorProps<T extends RowKeyType> {
     /** force sort on preview state, useful for sort table row without change column data ,default false */
     forceSortable?: boolean
     /** antd table props */
-    tableProps?: Omit<TableProps<T>, 'dataSource' | 'columns' | 'title' | 'rowKey'>
+    tableProps?: Omit<TableProps<T>, 'dataSource' | 'columns' | 'caption' | 'rowKey'>
     /** copy tranform function, happen before copy a row to a new row */
     copyTransform?: (v: T) => T
 }

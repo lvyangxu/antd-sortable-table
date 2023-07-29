@@ -107,7 +107,7 @@ export function InnerEditor<T extends RowKeyType>(props: TableEditorProps<T>) {
                             onChange(newValue)
                         }}
                     >
-                        {locale.data.clearButtonText}
+                        {locale.data.deleteButtonText}
                     </Button>
                 </Space>
             ),
@@ -145,7 +145,7 @@ export function InnerEditor<T extends RowKeyType>(props: TableEditorProps<T>) {
                             onChange([])
                         }}
                     >
-                        {locale.data.deleteButtonText}
+                        {locale.data.clearButtonText}
                     </Button>
                 </Space>
             ),
