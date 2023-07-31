@@ -1,4 +1,4 @@
-name: vite build
+name: Build Demo
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
