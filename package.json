@@ -1,8 +1,8 @@
 {
   "name": "antd-sortable-table",
-  "version": "1.0.0",
+  "version": "1.0.0-beta0",
   "description": "sortable table editor by antd and dnd-kit",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "vite",
     "build": "tsc -p ./tsconfig-build.json",
@@ -23,6 +23,9 @@
   },
   "homepage": "https://github.com/lvyangxu/antd-sortable-table#readme",
   "devDependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "antd": "^5.7.0",
+    "lodash": "^4.17.21",
     "@dnd-kit/core": "^6.0.8",
     "@dnd-kit/modifiers": "^6.0.1",
     "@dnd-kit/sortable": "^7.0.2",
@@ -48,11 +51,13 @@
     "vite": "^4.4.3"
   },
   "peerDependencies": {
-    "react": ">=18.0.0"
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
+    "antd": ">=5.0.0",
+    "@ant-design/icons": ">=5.0.0",
+    "lodash": ">=4.17.0"
   },
-  "dependencies": {
-    "@ant-design/icons": "^5.1.4",
-    "antd": "^5.7.0",
-    "lodash": "^4.17.21"
-  }
+  "files": [
+    "dist"
+  ]
 }
