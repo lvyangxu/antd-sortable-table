@@ -1,6 +1,6 @@
 {
   "name": "antd-sortable-table",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sortable table editor by antd and dnd-kit",
   "main": "dist/index.js",
   "scripts": {
